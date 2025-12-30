@@ -2,8 +2,8 @@ import { test, expect } from "@playwright/test";
 
 test("test", async ({ page, context }) => {
   // Home
-  await page.goto("http://localhost:3000/");
-  await expect(page).toHaveURL("http://localhost:3000/"); // URL assertion
+  await page.goto("https://dev.elementix.us/");
+  await expect(page).toHaveURL("https://dev.elementix.us/"); // URL assertion
 
   // About
   await page.getByRole("link", { name: "About", exact: true }).click();

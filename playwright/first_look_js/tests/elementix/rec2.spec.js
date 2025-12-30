@@ -1,7 +1,7 @@
 import { test } from "@playwright/test";
 
 test("test", async ({ page }) => {
-  await page.goto("http://localhost:3000/");
+  await page.goto("https://dev.elementix.us/");
   await page.getByRole("link", { name: "Go to homepage" }).click();
   await page.getByRole("heading", { name: "Transforming Ideas into" }).click();
   await page.getByText("Empowering startups and").click();
