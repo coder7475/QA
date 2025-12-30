@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "pnpm exec playwright test",
-    "show-report": "pnpm exec playwright show-report"
+    "test": "npx playwright test",
+    "show-report": "npx playwright show-report",
+    "codegen": "npx playwright codegen",
+    "install": "npx playwright install"
   },
   "keywords": [],
   "author": "",
