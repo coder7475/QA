@@ -5,7 +5,7 @@ test.describe("Test Suite 1", () => {
     // Go to the starting url before each test.
     test.setTimeout(60_000);
 
-    await page.goto("https://dev.elementix.us/", {
+    await page.goto("https://elementix.us/", {
       waitUntil: "domcontentloaded",
       timeout: 50_000,
     });
